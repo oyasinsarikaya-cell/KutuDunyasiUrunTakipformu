@@ -1,0 +1,32 @@
+/* Ana stil tanımlamaları */
+.navbar-brand { 
+    font-weight: bold; 
+    color: #dc3545 !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-logo {
+    height: 35px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.firma-logo {
+    max-height: 120px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.main-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ... diğer stiller ... */
